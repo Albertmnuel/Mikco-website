@@ -69,23 +69,23 @@
     </form>
   </div>
 
-  <script>
-    document.getElementById("loginForm").addEventListener("submit", function (e) {
-      e.preventDefault();
-      const user = document.getElementById("username").value;
-      const pass = document.getElementById("password").value;
+ <script>
+  function login() {
+    const username = document.getElementById("username").value;
+    const password = document.getElementById("password").value;
 
-  if (user === "Mikco" && pass === "1234") {
-        localStorage.setItem("loggedIn", "true");
-        window.location.href = "home.html";
-      } else {
-        document.getElementById("error").textContent = "Invalid username or password.";
-      }
-    });
-  </script>
+    if (username === "mikco" && password === "mikco123") {
+      window.location.href = "home.html";
+    } else {
+      alert("Invalid username or password.");
+    }
+  }
+</script>
+
 
 </body>
 </html>
+
 
 
 
