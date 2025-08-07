@@ -58,10 +58,18 @@
   <footer>
     &copy; 2025 MIKCORPORATE SERVICES LIMITED. All rights reserved.
   </footer>
+<button onclick="logout()" style="float:right; margin:10px;">Logout</button>
 
+<script>
+  function logout() {
+    localStorage.removeItem("loggedIn");
+    window.location.href = "index.html";
+  }
+</script>
 
 </body>
 </html>
+
 
 
 
