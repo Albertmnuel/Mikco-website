@@ -1,0 +1,14 @@
+  body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      background-color: #ffffff;
+      color: #0a9e0a;
+    }
+ h2 {
+         box-shadow: 0 0 20px 0 rgba(31, 176, 220, 0.9);
+      color:  #036203;
+    }
+
+    ul {
+      line-height: 1.8;
+    }
